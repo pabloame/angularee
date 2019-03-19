@@ -1,2 +1,2 @@
-FROM jboss/wildfly:15.0.0.Final
+FROM jboss/wildfly
 ADD ./backend/target/angularee.war /opt/jboss/wildfly/standalone/deployments/
