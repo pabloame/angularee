@@ -1,20 +1,20 @@
-#AngularEE
+# AngularEE
 
 Basic repository where you can find an Angular application
 served by a JavaEE web application.
 
 
-##Purpose
+## Purpose
 
 The purpose of this repository is just to show a possible solution on how to serve an
 Angular application from a JavaEE web application in an automated way.
 
-##Prerequisites
+## Prerequisites
 
 * Maven
 * NPM
 
-##Run Angular
+## Run Angular
 You can just run Angular app as usual using:
 
 ```
@@ -25,7 +25,7 @@ ng serve
 It will be deployed on port 4200.
 
 
-##Run Java EE application
+## Run Java EE application
 You can just run JavaEE app as usual using Maven:
 
 ```
@@ -35,7 +35,7 @@ mvn clean package
 
 In targe you will get a war file.
 
-##Run JavaEE + Angular
+## Run JavaEE + Angular
 
 In order to ship your Angular application inside your war file you just need to:
 
@@ -43,7 +43,7 @@ In order to ship your Angular application inside your war file you just need to:
 mvn clean package -Pangular+javaee
 ```
 
-##Deploy
+## Deploy
 
 You can use a compliance Java EE 8 web server to deploy or build a docker image 
 as follow:
